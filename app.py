@@ -8,7 +8,7 @@ def index():
 
 @app.route('/team/')
 def team():
-    return render.template('team.html')
+    return render_template('team.html')
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=80)
