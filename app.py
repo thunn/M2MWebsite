@@ -5,7 +5,7 @@ import sqlite3
 app = Flask(__name__)
 
 #Setup Database
-app.database = "sample.db"
+app.database = "M2MWebsite/sample.db"
 
 @app.route('/')
 def index():
