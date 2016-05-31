@@ -16,7 +16,7 @@ def team():
     return render_template('team.html')
 
 @app.route('/prototype/')
-def team():
+def prototype():
     return render_template('prototype.html')
 
 @app.route('/users/')
