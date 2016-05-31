@@ -15,6 +15,10 @@ def index():
 def team():
     return render_template('team.html')
 
+@app.route('/prototype/')
+def team():
+    return render_template('prototype.html')
+
 @app.route('/users/')
 def users():
     #Create temporary connection object
